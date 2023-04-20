@@ -15,7 +15,7 @@ echo, >>ftp-temp.txt
 echo quit>>ftp-temp.txt
 
 REM Call the ftp command with the new file
-REM ftp -s:ftp.txt
+REM ftp -s:ftp-temp.txt
 
 REM Pausing to check that script worked, unnecessary for automation
 pause
