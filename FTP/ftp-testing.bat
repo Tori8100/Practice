@@ -8,7 +8,7 @@ echo %yoosrnaym%>>ftp-temp.txt
 echo %password%>>ftp-temp.txt
 
 REM Copy the automated script into the new temporary file, add together to keep header (amending)
-copy ftp-temp.txt+ftp-script.bat ftp-temp.txt
+copy ftp-temp.txt+ftp-script.txt ftp-temp.txt
 
 REM to add a new line character in case the file does not end with one
 echo, >>ftp-temp.txt
